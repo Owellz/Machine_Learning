@@ -2,7 +2,7 @@
 
 
 
-# Using two values to determine the Relationship (r) between them
+# Using Linear regression of two values to determine the Relationship (r) between them
 #-1, 1 means their is relationship while 
 # 0 meansno relationship
 
