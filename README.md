@@ -48,8 +48,8 @@ scale = StandardScaler()
 
 df = pandas.read_csv("data.csv")
 
-X = df[['Weight', 'Volume']]
-y = df['CO2']
+X = df[['Weight', 'Volume']] #independent
+y = df['CO2'] #dependent
 
 scaledX = scale.fit_transform(X)
 
@@ -71,8 +71,8 @@ import matplotlib.pyplot as plt
 
 numpy.random.seed(2)
 
-x = numpy.random.normal(3, 1, 100)
-y = numpy.random.normal(150, 40, 100) / x
+x = numpy.random.normal(3, 1, 100) #independent
+y = numpy.random.normal(150, 40, 100) / x  #dependent
 
 train_x = x[:80]
 train_y = y[:80]
